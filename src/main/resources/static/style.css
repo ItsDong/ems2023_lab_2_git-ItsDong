@@ -25,3 +25,15 @@ footer {
     text-align: center;
     color: black;
 }
+@media (prefers-color-scheme: dark) {
+    html,body {
+        background: DarkSlateGrey;
+	color: white;
+    }
+    header {
+        background: LightSlateGrey;
+    }
+    footer {
+        color: white;
+    }
+}
